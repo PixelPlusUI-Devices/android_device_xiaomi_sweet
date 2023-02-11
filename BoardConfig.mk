@@ -99,6 +99,8 @@ TARGET_SCREEN_DENSITY := 440
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+SELINUX_IGNORE_NEVERALLOWS=true
+
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2022-09-01
 
